@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -366,6 +367,121 @@ public class Main {
             System.out.print(num + " ");
         }
     }
+
+    public static void ex14(){
+        class Aluno  {
+            public int num;
+            public String classe;
+            public float cra;
+        }
+
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Aluno> alunos;
+        alunos = new ArrayList<Aluno>();
+
+        Aluno a = new Aluno();
+        int qtd = 0;
+
+        System.out.print("Quantos alunos serão cadastrados: ");
+        qtd = sc.nextInt();
+
+        for (int i = 0; i < qtd; i++){
+            System.out.print("\nEntre com o número do aluno: ");
+            a.num = sc.nextInt();
+            System.out.print("Entre com a classe social do aluno: ");
+            a.classe = sc.next();
+            System.out.print("Entre com o CRA: ");
+            a.cra = sc.nextFloat();
+
+            alunos.add(a);
+        }
+
+        System.out.println("============ ALUNOS CADASTRADOS ============");
+
+        for (int i = 0; i < qtd; i++){
+            a = alunos.get(i);
+            System.out.println("Número: " + a.num + " Classe Social: " + a.classe + " CRA: " + a.cra);
+        }
+    }
+
+    public static void ex15(){
+        Scanner sc = new Scanner(System.in);
+
+        int vet[] = new int[8], rep[] = new int[4], contR = 0, contA = 0, contAR = 0;
+
+        for (int i = 0; i < 8; i++)
+        {
+            System.out.print("Digite o " + (i+1) + "º número: ");
+            vet[i] = sc.nextInt();
+
+            contR = 0;
+            for (int j = 0; j < i; j++){
+                if(contR == 0 && vet[i] == vet[j]){
+                    contAR = 0;
+                    for (int k = 0; k < contA; k++) {
+                        if(vet[i] == rep[k]) {
+                            contAR++;
+                        }
+                    }
+
+                    if(contAR == 0) {
+                        rep[contA] = vet[i];
+                        contR++;
+                        contA++;
+                    }
+                }
+            }
+        }
+
+        System.out.print("Os números repetidos foram: ");
+        for (int i = 0; i < contA; i++) {
+            System.out.print(rep[i] + " ");
+        }
+    }
+
+    public static void ex16(){
+        Scanner sc = new Scanner(System.in);
+
+        int vet[] = new int[8], rep[] = new int[4], contR = 0, contA = 0, contAR = 0;
+
+        for (int i = 0; i < 8; i++)
+        {
+            System.out.print("Digite o " + (i+1) + "º número: ");
+            vet[i] = sc.nextInt();
+
+            contR = 0;
+            for (int j = 0; j < i; j++){
+                if(contR == 0 && vet[i] == vet[j]){
+                    contAR = 0;
+                    for (int k = 0; k < contA; k++) {
+                        if(vet[i] == rep[k]) {
+                            contAR++;
+                        }
+                    }
+
+                    if(contAR == 0) {
+                        rep[contA] = vet[i];
+                        contR++;
+                        contA++;
+                    }
+                }
+            }
+        }
+
+        System.out.println("Os números repetidos foram: ");
+        for (int i = 0; i < contA; i++) {
+            contR = 0;
+            System.out.print(rep[i] + " aparece ");
+
+            for (int j = 0; j < 8; j++){
+                if(rep[i] == vet[j]) {
+                    contR++;
+                }
+            }
+
+            System.out.println(contR + " vezes.");
+        }
+    }
     public static void main(String[] args) {
         // ex01();
         // ex02();
@@ -375,10 +491,13 @@ public class Main {
         //ex06();
         //ex07();
         //ex08();
-        ex09();
+        //ex09();
         //ex10();
         //ex11();
         //ex12();
         //ex13();
+        //ex14();
+        //ex15();
+        //ex16();
     }
 }
