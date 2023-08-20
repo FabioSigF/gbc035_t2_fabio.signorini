@@ -199,7 +199,172 @@ public class Main {
     }
 
     public static void ex09(){
-        
+        int n;
+        float media = 0, vet[] = new float[100];
+
+        Scanner sc = new Scanner(System.in);
+
+        do{
+            System.out.print("Digite a quantidade de alunos: ");
+            n = sc.nextInt();
+
+            if(n > 100){
+                System.out.println("A quantidade máxima de alunos é 100. Tente novamente.");
+            }
+        } while(n > 100);
+
+        for (int i = 0; i < n; i++){
+            System.out.print("Digite a nota do aluno " + (i+1) + ": ");
+            vet[i] = sc.nextFloat();
+
+            media += vet[i];
+        }
+
+        media /= n;
+
+        System.out.println("\nRelatório de Notas");
+        for (int i = 0; i < n; i++){
+            System.out.println("A nota do aluno " + (i+1) + " é: " + vet[i]);
+        }
+        System.out.println("A média da turma é: " + media);
+    }
+
+    public static void ex10(){
+        Scanner sc = new Scanner(System.in);
+
+        int a[] = new int[3];
+        int b[] = new int[3];
+        int c[] = new int[3];
+        for (int i = 0; i < 3; i++){
+            System.out.print("Digite o valor " + (i+1) + " de A: ");
+            a[i] = sc.nextInt();
+            c[i] = a[i];
+        }
+
+        for (int i = 0; i < 3; i++){
+            System.out.print("Digite o valor " + (i+1) + " de B: ");
+            b[i] = sc.nextInt();
+            c[i] -= b[i];
+        }
+
+        System.out.print("O vetor C, definido como C = A - B é ( ");
+        for (int i = 0; i < 3; i++){
+            System.out.print(c[i] + " ");
+        }
+        System.out.println(")");
+    }
+
+    public static void ex11(){
+        Scanner sc = new Scanner(System.in);
+        int j = 0, k = 0;
+        int vet[] = new int[5];
+        int par[] = new int[5];
+        int impar[] = new int[5];
+
+        for (int i = 0; i < 5; i++){
+            System.out.print("Digite o " + (i+1) + "º valor: ");
+            vet[i] = sc.nextInt();
+
+            if(vet[i]%2 == 0){
+                par[j] = vet[i];
+                j++;
+            } else {
+                impar[k] = vet[i];
+                k++;
+            }
+        }
+
+        System.out.print("Números ímpares: ");
+        if(k > 0) {
+            for (int i = 0; i < k; i++) {
+                System.out.print(impar[i] + " ");
+            }
+        } else {
+            System.out.print("0");
+        }
+
+        System.out.print("Números pares: ");
+        if(j > 0) {
+            for (int i = 0; i < j; i++) {
+                System.out.print(par[i] + " ");
+            }
+        } else {
+            System.out.print("0");
+        }
+
+    }
+
+    //Função que será utilizada no ex12
+    static String showColorName(Integer index){
+        switch (index) {
+            case 0:
+                return "Verde";
+            case 1:
+                return "Vermelho";
+            case 2:
+                return "Azul";
+            case 3:
+                return "Amarelo";
+            default:
+                return "Cor inválida";
+        }
+    }
+    public static void ex12(){
+        Scanner sc = new Scanner(System.in);
+        //0 - Verde
+        //1 - Vermelho
+        //2 - Azul
+        //3 - Amarelo
+        float qtd[] = new float[4];
+        float pb[] = new float[4];
+        float qtotal = 0;
+        int maior = 0;
+
+        System.out.println("Digite a quantidade de bolinhas");
+
+        for(int i = 0; i < 4; i++) {
+            System.out.print(showColorName(i) + ": ");
+            qtd[i] = sc.nextFloat();
+
+            qtotal += qtd[i];
+        }
+
+        for(int i = 0; i < 4; i++) {
+            pb[i] = (qtd[i]/qtotal) * 100;
+            if(pb[i] > pb[maior]) {
+                maior = i;
+            }
+        }
+
+        System.out.println("Probabilidades");
+        for (int i = 0; i < 4; i++) {
+            if(maior != i) {
+                System.out.printf("%s: %.1f%%\n", showColorName(i), pb[i]);
+            } else {
+                System.out.printf("%s: %.1f%% <- Maior Probabilidade\n", showColorName(i), pb[i]);
+            }
+
+        }
+    }
+
+    public static void ex13(){
+        Scanner sc = new Scanner(System.in);
+
+        int vet[] = new int[5];
+
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Digite o valor da " + (i+1) + "º posição: ");
+            vet[i] = sc.nextInt();
+            if(vet[i] < 0){
+                vet[i] = 0;
+            }
+        }
+
+        System.out.print("Zerando os negativos, obtém-se: ");
+        for (Integer num :
+                vet) {
+            System.out.print(num + " ");
+        }
     }
     public static void main(String[] args) {
         // ex01();
@@ -209,8 +374,11 @@ public class Main {
         //ex05();
         //ex06();
         //ex07();
-        ex08();
+        //ex08();
+        ex09();
+        //ex10();
+        //ex11();
+        //ex12();
+        //ex13();
     }
-
-
 }
