@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c516d903-c8d0-4d92-96d5-5e336377648d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ex01/src/Figurinha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex01/src/FigurinhaExtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex02/src/Figurinha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex02/src/FigurinhaExtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex03/src/Figurinha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex03/src/FigurinhaExtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex04/src/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex04/src/C2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex04/src/C3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/src/Chefe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/src/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/src/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/src/Horista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/src/Operario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/src/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CamaroteInferior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CamaroteSuperior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ingresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VIP.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2W1sKXDpmZ35ZIIoR7qBEI9eUJS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c516d903-c8d0-4d92-96d5-5e336377648d" name="Changes" comment="" />
+      <created>1695911360731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695911360731</updated>
+    </task>
+    <servers />
+  </component>
+</project>
