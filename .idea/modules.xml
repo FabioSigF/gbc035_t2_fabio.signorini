@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LAB01 - Procedural/LAB01 - Procedural.iml" filepath="$PROJECT_DIR$/LAB01 - Procedural/LAB01 - Procedural.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB03 - Class Relations/LAB03 - Class Relations.iml" filepath="$PROJECT_DIR$/LAB03 - Class Relations/LAB03 - Class Relations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB01 - Procedural/ex001/ex001.iml" filepath="$PROJECT_DIR$/LAB01 - Procedural/ex001/ex001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB01 - Procedural/ex003/ex003.iml" filepath="$PROJECT_DIR$/LAB01 - Procedural/ex003/ex003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB02 - First OOP code/ex01/ex01.iml" filepath="$PROJECT_DIR$/LAB02 - First OOP code/ex01/ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB04 - Inheritance/ex01/ex011.iml" filepath="$PROJECT_DIR$/LAB04 - Inheritance/ex01/ex011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB02 - First OOP code/ex02/ex02.iml" filepath="$PROJECT_DIR$/LAB02 - First OOP code/ex02/ex02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB04 - Inheritance/ex02/ex021.iml" filepath="$PROJECT_DIR$/LAB04 - Inheritance/ex02/ex021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB02 - First OOP code/ex03/ex03.iml" filepath="$PROJECT_DIR$/LAB02 - First OOP code/ex03/ex03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB04 - Inheritance/ex03/ex031.iml" filepath="$PROJECT_DIR$/LAB04 - Inheritance/ex03/ex031.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB02 - First OOP code/ex04/ex04.iml" filepath="$PROJECT_DIR$/LAB02 - First OOP code/ex04/ex04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB04 - Inheritance/ex04/ex041.iml" filepath="$PROJECT_DIR$/LAB04 - Inheritance/ex04/ex041.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB02 - First OOP code/ex05/ex05.iml" filepath="$PROJECT_DIR$/LAB02 - First OOP code/ex05/ex05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB04 - Inheritance/ex05/ex051.iml" filepath="$PROJECT_DIR$/LAB04 - Inheritance/ex05/ex051.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LAB04 - Inheritance/ex06/ex06.iml" filepath="$PROJECT_DIR$/LAB04 - Inheritance/ex06/ex06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gbc035_t2_fabio.signorini.iml" filepath="$PROJECT_DIR$/.idea/gbc035_t2_fabio.signorini.iml" />
+    </modules>
+  </component>
+</project>
